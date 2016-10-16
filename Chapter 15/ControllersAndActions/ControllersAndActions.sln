@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllersAndActions", "ControllersAndActions\ControllersAndActions.csproj", "{75185D26-F400-46AF-A463-221D18A30B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllersAndActions.Tests", "ControllersAndActions.Tests\ControllersAndActions.Tests.csproj", "{634B1A1B-7D39-419C-A3AB-2F9D23BBAF8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75185D26-F400-46AF-A463-221D18A30B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75185D26-F400-46AF-A463-221D18A30B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75185D26-F400-46AF-A463-221D18A30B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75185D26-F400-46AF-A463-221D18A30B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634B1A1B-7D39-419C-A3AB-2F9D23BBAF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634B1A1B-7D39-419C-A3AB-2F9D23BBAF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634B1A1B-7D39-419C-A3AB-2F9D23BBAF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634B1A1B-7D39-419C-A3AB-2F9D23BBAF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿@model PartyInvites.Models.GuestResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <title>RsvpForm</title>
+</head>
+<body>
+    @using (Html.BeginForm()) {
+        @Html.ValidationSummary()
+        <p>Your name: @Html.TextBoxFor(x => x.Name) </p>
+        <p>Your email: @Html.TextBoxFor(x => x.Email)</p>
+        <p>Your phone: @Html.TextBoxFor(x => x.Phone)</p>
+        <p>
+            Will you attend?
+            @Html.DropDownListFor(x => x.WillAttend, new[] {
+                new SelectListItem() {Text = "Yes, I'll be there", 
+                    Value = bool.TrueString},
+                new SelectListItem() {Text = "No, I can't come", 
+                    Value = bool.FalseString}
+            }, "Choose an option")
+        </p>
+        <input type="submit" value="Submit RSVP" />
+    }
+</body>
+</html>

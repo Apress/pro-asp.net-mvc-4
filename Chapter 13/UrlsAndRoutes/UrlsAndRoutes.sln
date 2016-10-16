@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes", "UrlsAndRoutes\UrlsAndRoutes.csproj", "{A9B8AC77-DF39-4464-94D6-745FFEE4E952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlsAndRoutes.Tests", "UrlsAndRoutes.Tests\UrlsAndRoutes.Tests.csproj", "{5BD420DD-5C9E-4D6E-96F1-061E8521736B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B8AC77-DF39-4464-94D6-745FFEE4E952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B8AC77-DF39-4464-94D6-745FFEE4E952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B8AC77-DF39-4464-94D6-745FFEE4E952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B8AC77-DF39-4464-94D6-745FFEE4E952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD420DD-5C9E-4D6E-96F1-061E8521736B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD420DD-5C9E-4D6E-96F1-061E8521736B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD420DD-5C9E-4D6E-96F1-061E8521736B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD420DD-5C9E-4D6E-96F1-061E8521736B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

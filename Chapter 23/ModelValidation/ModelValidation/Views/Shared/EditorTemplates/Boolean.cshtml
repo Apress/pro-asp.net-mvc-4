@@ -1,0 +1,16 @@
+﻿@model bool?
+           
+@if (ViewData.ModelMetadata.IsNullableValueType) {
+    @Html.DropDownListFor(m => m, new SelectList(new [] {"Not Set", "True", "False"}, Model))
+} else {
+    ModelState state = ViewData.ModelState[ViewData.ModelMetadata.PropertyName];
+    bool value = Model ?? false;
+     
+    if (state != null && state.Errors.Count > 0) {
+        <div class="input-validation-error" style="float:left">
+            @Html.CheckBox("", value)
+        </div>
+    } else {
+        @Html.CheckBox("", value)        
+    }
+}

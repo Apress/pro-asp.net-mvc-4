@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet"/>
+    <style type="text/css">
+        label { display: inline-block; width: 100px;}
+        h2 > label {
+            width: inherit;
+        }
+        .dataElem { margin: 5px;}
+        .editor-label, .editor-field {float: left;}
+        .editor-label, .editor-label label, .editor-field input {height: 20px;}
+        .editor-label {clear: left;}
+        .editor-field { margin-left: 10px; margin-top: 10px;}
+        input[type=submit] { float: left; clear: both; margin-top: 10px;}
+        .column {
+            float: left;
+            margin: 10px;
+        }
+    </style>
+    <script src="~/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js" 
+        type="text/javascript"></script>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>

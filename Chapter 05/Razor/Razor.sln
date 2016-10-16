@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{FC9ED1B0-C073-4E3C-A4C6-B726F41D38BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9ED1B0-C073-4E3C-A4C6-B726F41D38BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9ED1B0-C073-4E3C-A4C6-B726F41D38BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9ED1B0-C073-4E3C-A4C6-B726F41D38BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9ED1B0-C073-4E3C-A4C6-B726F41D38BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
